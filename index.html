@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- font link  -->
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap-icons.css">
+  </head>
+  <body>
+
+
+
+    <div class="conteiner">
+      <form class="from_1">
+        <div class="mb-3">
+          <label for="email1" class="form-label">Email address</label>
+          <input type="email" class="form-control email1" id="email1" name="email1"  placeholder="Enter your Email address" required>
+          
+        </div>
+        <div class="mb-3">
+          <label for="Password1" class="form-label">Password</label>
+          <input type="password" class="form-control Password1" id="Password1" name="Password1" placeholder="Enter your password" required>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+   </div>
+
+
+
+
+   <div class="conteiner2">
+      <!-- frist name start -->
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-10">
+          <label for="f_name" class="form-label">First name</label>
+          <input type="text" class="form-control f_name " id="f_name" placeholder="Enter your First name" required>
+          <div class="valid-feedback">
+            thank you
+          </div>
+          <div class="invalid-feedback">
+            Please Enter your First name
+          </div>
+        </div>
+       <!-- frist name start -->
+
+        <!-- last name start -->
+
+        <div class="col-md-10">
+          <label for="l_name" class="form-label">Last name</label>
+          <input type="text" class="form-control  l_name " id="l_name" placeholder="Enter your last name" required>
+          <div class="valid-feedback">
+            thank you
+          </div>
+          <div class="invalid-feedback">
+            Please Enter your last name
+          </div>
+        </div>
+        <!-- last name end -->
+
+        <!-- email start -->
+        <div class="col-md-10">
+          <label for="email" class="form-label">Email Adderss</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="email" class="form-control email " id="email" aria-describedby="inputGroupPrepend" placeholder="Enter your email address" required>
+            <div class="valid-feedback">
+              thank you
+            </div>
+            <div class="invalid-feedback">
+             Please Enter your email address
+            </div>
+          </div>
+        </div>
+         <!-- email end -->
+
+          <!-- city start -->
+        <div class="col-md-10">
+          <label for="validationCustom03" class="form-label">City</label>
+          <input type="text" class="form-control" id="validationCustom03" required  >
+          <div class="valid-feedback">
+            thank you
+          </div>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <!-- city end -->
+
+        <div class="col-md-10">
+          <label for="validationCustom04" class="form-label">Education</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>Ssc</option>
+            <option>Hsc</option>
+            <option>Masters</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid Education.
+          </div>
+        </div>
+
+        <div class="col-md-10">
+          <label for="validationCustom05" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+    </form>
+
+
+
+
+   </div>
+
+   <i class="bi red bi-clock-history"></i>
+   <i class="bi bi-cloud-check"></i>
+
+    <script src="js/bootstrap.bundle.min.js"> </script>
+    <script src="js/script.js">
+
+  
+    </script>
+
+  </body>
+</html>
